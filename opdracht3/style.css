@@ -1,2 +1,38 @@
-
-
+*{
+    list-style: none;   
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+    list-style: none;  
+    border-spacing: 10px;
+}
+footer li{
+width: 100px;
+height: 50px;
+background-color:  black;
+}
+footer li:hover{
+    background-color: blue
+}
+ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+    list-style: none;  
+    border-spacing: 10px;
+}
+li{
+    width: 100px;
+    height: 50px;
+    background-color:  blue;
+    }
+    li:hover{
+        background-color: red;
+    }
